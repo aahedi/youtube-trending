@@ -1,0 +1,82 @@
+*{font-family:arial}
+.maindiv div{margin:20px}
+.img-responsive{width:100%;}
+a{text-decoration:none}
+.fancybox-slide--iframe .fancybox-content {
+	width  : 720px;
+	height : 480px;
+	max-width  : 100%;
+	max-height : 100%;
+	margin: 0;
+}
+.Vtitle a{font-size:16px;color:#000}
+.cTitle a{font-size:14px;color:#000}
+#trending{
+	display: block;
+}
+.maindiv{
+    display: inline-block;
+	max-width:98%;
+    width: 250px;
+    height: auto;
+    overflow: hidden;
+    margin: 0px;
+    background: url() no-repeat center top;
+    vertical-align: top;
+    word-wrap: break-word;
+    border: none;
+    border-width: thin;
+}
+h1{text-align:center}
+
+
+thead {
+    border-bottom: #000 3px double;;
+}
+table, td, th {
+    border: #000 1px solid;
+}
+td, th {
+    padding: 2px;
+    width: 100px;
+    overflow: hidden;
+    font-size: 16px;
+}
+tr{
+  text-align: center;
+}
+td:nth-child(even) a{
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: black;
+  }
+td:nth-child(odd) a{color: blue;font-weight:bold}
+	   
+#wordFreq{
+width:fit-content;
+overflow:auto;
+margin: 0 auto;
+}
+
+#kolom{
+position: fixed;
+    bottom: 0;
+    background: #ddd;
+    width: fit-content;
+    height: 20%;
+    margin: 0 auto;
+	overflow-x: hidden;
+    overflow-y: auto;
+    float: left;
+    border: 1px #666 solid;
+    padding: 5px;
+}
+
+#country{
+    position: fixed;
+    margin: 15px;
+    padding: 0;
+    top: 0;
+    z-index: 999;
+}
