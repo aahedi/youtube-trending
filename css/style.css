@@ -1,5 +1,4 @@
 *{font-family:arial}
-.maindiv div{margin:20px}
 .img-responsive{width:100%;}
 a{text-decoration:none}
 .fancybox-slide--iframe .fancybox-content {
@@ -13,11 +12,13 @@ a{text-decoration:none}
 .cTitle a{font-size:14px;color:#000}
 #trending{
 	display: block;
+	padding:0;
 }
+.maindiv div{margin:10px}
 .maindiv{
     display: inline-block;
 	max-width:98%;
-    width: 250px;
+    width: 265px;
     height: auto;
     overflow: hidden;
     margin: 0px;
