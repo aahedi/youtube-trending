@@ -13,6 +13,7 @@ a{text-decoration:none}
 #trending{
 	display: block;
 	padding:0;
+	list-style-type: decimal !important;
 }
 .maindiv div{margin:10px}
 .maindiv{
