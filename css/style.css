@@ -1,4 +1,26 @@
 *{font-family:arial}
+body {
+  counter-reset: maindiv;
+}
+.maindiv:before {
+  content: counter(maindiv)".";
+}
+.maindiv{	
+  position: relative;
+  counter-increment: maindiv;
+    display: inline-block;
+    max-width:98%;
+    width: 265px;
+    height: auto;
+    overflow: hidden;
+    margin: 0px;
+    background: url() no-repeat center top;
+    vertical-align: top;
+    word-wrap: break-word;
+    border: none;
+    border-width: thin;
+}
+.maindiv div{margin:10px}
 .img-responsive{width:100%;}
 a{text-decoration:none}
 .fancybox-slide--iframe .fancybox-content {
@@ -15,23 +37,7 @@ a{text-decoration:none}
 	padding:0;
 	list-style-type: decimal !important;
 }
-.maindiv div{margin:10px}
-.maindiv{
-    display: inline-block;
-	max-width:98%;
-    width: 265px;
-    height: auto;
-    overflow: hidden;
-    margin: 0px;
-    background: url() no-repeat center top;
-    vertical-align: top;
-    word-wrap: break-word;
-    border: none;
-    border-width: thin;
-}
 h1{text-align:center}
-
-
 thead {
     border-bottom: #000 3px double;;
 }
