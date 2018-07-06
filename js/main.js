@@ -98,6 +98,8 @@ var removeUselessWords = function(txt,region) {
    }); 
    
    function grab_yt(region){
+	if (region == null || region == "") {alert('Select country, please!');return false;}
+	   else{
    $('#trending').html('');
    $('#data_web').html('');
    $('#wordFreq').html('');
@@ -151,4 +153,5 @@ var removeUselessWords = function(txt,region) {
 
       }
     );
+ }
 }
