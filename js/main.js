@@ -102,7 +102,7 @@ var removeUselessWords = function(txt,region) {
    $('#data_web').html('');
    $('#wordFreq').html('');
    
-   var maxVideos = 100;
+   var maxVideos = 50;
   $.get(
     "https://www.googleapis.com/youtube/v3/videos",{
       part: 'snippet',
