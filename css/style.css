@@ -83,8 +83,13 @@ margin: 0 auto;
 #kolom2{
     float: right;
     right: 0;
+    height: 27%;
 }
-
+.js-rsspond{
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+}
 #country{
     position: fixed;
     margin: 15px;
