@@ -161,7 +161,7 @@ var removeUselessWords = function(txt,region) {
 			url: 'https://trends.google.com/trends/trendingsearches/daily/rss?geo=ID',
 			dateFormat: 'm dd, YY TT',
 			maxCount:10,
-			itemTemplate: '<li><a href="{{link}}">{{title}}</a></li>'
+			itemTemplate: '<li><a data-fancybox="" data-type="iframe" data-src="{{link}}" href="javascript:;">{{title}}</a></li>'
 		});
 
 		feed.init();
