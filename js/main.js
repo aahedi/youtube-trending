@@ -132,6 +132,16 @@ var removeUselessWords = function(txt,region) {
                             '<h3 class="Vtitle"><a data-fancybox data-type="iframe" data-src="https://youtube.com/embed/' + vidId + '?autoplay=1&rel=0&amp;controls=1&amp;showinfo=1;cc_load_policy=1&hl=en&cc_lang_pref=id" href="javascript:;">' + videTitle + '</a></h3>'+
                         '<h4 class="cTitle"><a href="https://www.youtube.com/channel/'+cID+'" target="_blank">'+channelTitle+'</a></h4></div></div></li>' ;
                     //'<div class="clearfix"></div>';
+		
+		var feed = new Rsspond({
+			url: 'https://trends.google.com/trends/trendingsearches/daily/rss?geo=ID',
+			dateFormat: 'm dd, YY TT',
+			maxCount:10,
+			itemTemplate: '<li><a href="{{link}}">{{title}}</a></li>'
+		});
+
+		feed.init();
+		
           $('#trending').append(output);
 		  
 				$('#data_web').append(videTitle+' ');
