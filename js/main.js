@@ -103,7 +103,7 @@ var removeUselessWords = function(txt,region) {
    $('#trending').html('');
    $('#data_web').html('');
    $('#wordFreq').html('');
-   $('.js-rsspond').html('');
+   //$('.js-rsspond').html('');
    
    var maxVideos = 50;
   $.get(
@@ -156,7 +156,7 @@ var removeUselessWords = function(txt,region) {
       }
     );
  }
-		
+		/*
 		var feed = new Rsspond({
 			url: 'https://trends.google.com/trends/trendingsearches/daily/rss?geo='+region,
 			dateFormat: 'm dd, YY TT',
@@ -165,4 +165,4 @@ var removeUselessWords = function(txt,region) {
 		});
 
 		feed.init();
-}
+}*/
