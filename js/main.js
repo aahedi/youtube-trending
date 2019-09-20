@@ -103,11 +103,11 @@ var removeUselessWords = function(txt,region) {
    $('#trending').html('');
    $('#data_web').html('');
    $('#wordFreq').html('');
-   //$('.js-rsspond').html('');
+   $('.js-rsspond').html('');
    
    var maxVideos = 50;
   $.get(
-      "https://www.googleapis.com/youtube/v3/videos",{
+    "https://www.googleapis.com/youtube/v3/videos",{
       part: 'snippet',
       chart: 'mostPopular',
       kind: 'youtube#videoListResponse',
