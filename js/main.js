@@ -107,9 +107,9 @@ var removeUselessWords = function(txt,region) {
    
    var maxVideos = 50;
   $.get(
-	  "https://www.googleapis.com/youtube/v3/search",{
+	  "https://www.googleapis.com/youtube/v3/channels",{
     //"https://www.googleapis.com/youtube/v3/videos",{
-		  channelId:'UCkGCfOsXthbuCm3et2GiPLg',
+		  id:'UCkGCfOsXthbuCm3et2GiPLg',
       part: 'snippet',
       chart: 'mostPopular',
       kind: 'youtube#videoListResponse',
