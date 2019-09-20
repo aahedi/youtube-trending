@@ -103,7 +103,7 @@ var removeUselessWords = function(txt,region) {
    $('#trending').html('');
    $('#data_web').html('');
    $('#wordFreq').html('');
-   $('.js-rsspond').html('');
+   //$('.js-rsspond').html('');
    
    var maxVideos = 50;
   $.get(
