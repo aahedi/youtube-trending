@@ -140,18 +140,18 @@ var removeUselessWords = function(txt,region) {
 				vidId = item.snippet.resourceId.videoId;
 		
     var temp = videTitle.split(" ");
-    var sapuluh = ['slide','bokeh','buzz','swipe','vortex','flutter'];
-    var mabelas = ['transmission','panels','beat'];
-    var duapuluh = ['adore','blossom'];
+    var sapuluh = 'zipped,push,edge,scrumble,buzz,flutter,glitch3d,harmony,swipe,tossed,vortex,scatter,heat,arcade,bokeh,breakout,frosted,sweep,slide,segment,slip,corners';
+    var mabelas = 'shift,beat,broadcast,brushes,colorize,crosstown,duotone,fireworks,levels,panels,paparazzi,shapes,shuffle,sliced,transmission,funhouse,atomic,fresh,lotus,pixels,smoke,spun';
+    var duapuluh = 'autumn,shimmer,adore,kinetic,snowfall,spotted,blossom,campagne,countdown,elements,piles,mod,puzzle,sweetness';
     var harga = '';
 
-        if (jQuery.inArray(temp[1], sapuluh)!='-1') {
+        if (jQuery.inArray(temp[1], sapuluh.split(','))!='-1') {
             harga = '10rb';
         } 
-        else if (jQuery.inArray(temp[1], mabelas)!='-1') {
+        else if (jQuery.inArray(temp[1], mabelas.split(','))!='-1') {
             harga = '15rb';
         }
-        else if (jQuery.inArray(temp[1], duapuluh)!='-1') {
+        else if (jQuery.inArray(temp[1], duapuluh.split(','))!='-1') {
             harga = '20rb';
         }
 		
