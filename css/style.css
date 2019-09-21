@@ -7,11 +7,11 @@ body {
 }
 .harga{
 background-color: palevioletred;
-    padding: 4px;
+    padding: 3px;
     color: black;
     font-weight: bold;
     position: absolute;
-    right: 41px;
+    right: 21px;
 }
 .maindiv{	
   position: relative;
