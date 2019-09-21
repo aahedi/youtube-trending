@@ -110,7 +110,8 @@ var removeUselessWords = function(txt,region) {
 	  "https://www.googleapis.com/youtube/v3/playlistItems",{
     //"https://www.googleapis.com/youtube/v3/videos",{
 		  //channelid:'UCkGCfOsXthbuCm3et2GiPLg',
-		  playlistId:'PLSAz_JSo_9sUGQ7eybFEGp0q5W_gIAPUR',
+		  //playlistId:'PLSAz_JSo_9sUGQ7eybFEGp0q5W_gIAPUR',
+		  playlistId:'PLkbaG37V-vG8Fib_qvgOKf3qzqA0SUk59',
       part: 'snippet',
       chart: 'mostPopular',
       kind: 'youtube#videoListResponse',
