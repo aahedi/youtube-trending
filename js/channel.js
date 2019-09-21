@@ -138,7 +138,24 @@ var removeUselessWords = function(txt,region) {
                 cID = item.snippet.channelId;
 				//vidId = item.id;
 				vidId = item.snippet.resourceId.videoId;
-          output = '<li class="maindiv"><div><span class="harga">10rb</span>' +
+		
+    var temp = videTitle.split(" ");
+    var sapuluh = ['slide','bokeh','buzz','swipe','vortex','flutter'];
+    var mabelas = ['transmission','panels','beat'];
+    var duapuluh = ['adore','blossom'];
+    var harga = '';
+
+        if (jQuery.inArray(temp[1], sapuluh)!='-1') {
+            harga = '10rb';
+        } 
+        else if (jQuery.inArray(temp[1], mabelas)!='-1') {
+            harga = '15rb';
+        }
+        else if (jQuery.inArray(temp[1], duapuluh)!='-1') {
+            harga = '20rb';
+        }
+		
+          output = '<li class="maindiv"><div><span class="harga">'+harga+'</span>' +
                         '<a data-fancybox data-type="iframe" data-src="https://youtube.com/embed/' + vidId + '?autoplay=1&rel=0&amp;controls=0&amp;showinfo=1;cc_load_policy=1&hl=en&cc_lang_pref=id" href="javascript:;"><img src="' + thumb + '" class="img-responsive thumbnail" ></a>' +
                         '</div>' +
                         '<div>' +
