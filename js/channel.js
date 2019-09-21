@@ -109,7 +109,7 @@ var removeUselessWords = function(txt,region) {
 	   else{
    $('#trending').html('');
    $('#data_web').html('');
-   $('#wordFreq').html('');
+   //$('#wordFreq').html('');
    //$('.js-rsspond').html('');
    
    var maxVideos = 50;
@@ -162,7 +162,7 @@ var removeUselessWords = function(txt,region) {
         ];
         var table = toTable(wordFreq, ['Word', 'Frequency']);
         addRowsBefore(table, summaryData);
-        $('#wordFreq').html(table);
+        //$('#wordFreq').html(table);
         })
 
       }
