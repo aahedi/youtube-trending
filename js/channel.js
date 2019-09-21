@@ -144,7 +144,7 @@ var removeUselessWords = function(txt,region) {
                         '<div>' +
                             '<h3 class="Vtitle"><a data-fancybox data-type="iframe" data-src="https://youtube.com/embed/' + vidId + '?autoplay=1&rel=0&amp;controls=0&amp;showinfo=1;cc_load_policy=1&hl=en&cc_lang_pref=id" href="javascript:;">' + videTitle + '</a></h3>'+
                         //'<h4 class="cTitle"><a href="https://www.youtube.com/channel/'+cID+'" target="_blank">'+channelTitle+'</a></h4>'
-		  +'</div></div></li>' ;
+		  '</div></div></li>' ;
                     //'<div class="clearfix"></div>';
 		
           $('#trending').append(output);
