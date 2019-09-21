@@ -95,6 +95,13 @@ var removeUselessWords = function(txt,region) {
 
    $(document).ready(function(){
    grab_yt('ID');$.fancybox.defaults.hash = true;
+	   
+				$("a").fancybox({
+					afterLoad : function() {
+						$('iframe').contents().find('video').click();
+						console.log("after load …");
+					}
+				});
    }); 
    
    function grab_yt(region){
