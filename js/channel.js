@@ -119,7 +119,7 @@ var removeUselessWords = function(txt,region) {
 		  //channelid:'UCkGCfOsXthbuCm3et2GiPLg',
 		  //playlistId:'PLSAz_JSo_9sUGQ7eybFEGp0q5W_gIAPUR',
 		  playlistId:'PLrEm7wWejuUy8Luj6AIaLm9iMgBtuaGq2',
-      part: 'snippet',
+      part: 'snippet,contentDetails',
       chart: 'mostPopular',
       kind: 'youtube#videoListResponse',
       maxResults: maxVideos,
