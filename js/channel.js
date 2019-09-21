@@ -107,9 +107,10 @@ var removeUselessWords = function(txt,region) {
    
    var maxVideos = 50;
   $.get(
-	  "https://www.googleapis.com/youtube/v3/videos",{
+	  "https://www.googleapis.com/youtube/v3/playlistItems",{
     //"https://www.googleapis.com/youtube/v3/videos",{
 		  id:'UCkGCfOsXthbuCm3et2GiPLg',
+		  playlistId:'PLSAz_JSo_9sUGQ7eybFEGp0q5W_gIAPUR',
       part: 'snippet',
       chart: 'mostPopular',
       kind: 'youtube#videoListResponse',
@@ -158,13 +159,4 @@ var removeUselessWords = function(txt,region) {
       }
     );
  }
-		
-		var feed = new Rsspond({
-			url: 'https://trends.google.com/trends/trendingsearches/daily/rss?geo='+region,
-			dateFormat: 'm dd, YY TT',
-			maxCount:10,
-			itemTemplate: '<li><a href="{{link}}">{{title}}</a></li>'
-		});
-
-		feed.init();
 }
