@@ -165,4 +165,5 @@ var removeUselessWords = function(txt,region) {
 		});
 
 		feed.init();
-}*/
+		*/
+}
