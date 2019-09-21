@@ -94,7 +94,7 @@ var removeUselessWords = function(txt,region) {
 
 
    $(document).ready(function(){
-   grab_yt('ID');
+   grab_yt('ID');$.fancybox.defaults.hash = true;
    }); 
    
    function grab_yt(region){
@@ -132,10 +132,10 @@ var removeUselessWords = function(txt,region) {
 				//vidId = item.id;
 				vidId = item.snippet.resourceId.videoId;
           output = '<li class="maindiv"><div>' +
-                        '<a data-fancybox data-type="iframe" data-src="https://youtube.com/embed/' + vidId + '?autoplay=1&rel=0&amp;controls=0&amp;showinfo=1;cc_load_policy=1&hl=en&cc_lang_pref=id" data-filter="#open" href="javascript:;"><img src="' + thumb + '" class="img-responsive thumbnail" ></a>' +
+                        '<a data-fancybox data-type="iframe" data-src="https://youtube.com/embed/' + vidId + '?autoplay=1&rel=0&amp;controls=0&amp;showinfo=1;cc_load_policy=1&hl=en&cc_lang_pref=id" href="javascript:;"><img src="' + thumb + '" class="img-responsive thumbnail" ></a>' +
                         '</div>' +
                         '<div>' +
-                            '<h3 class="Vtitle"><a data-fancybox data-type="iframe" data-src="https://youtube.com/embed/' + vidId + '?autoplay=1&rel=0&amp;controls=0&amp;showinfo=1;cc_load_policy=1&hl=en&cc_lang_pref=id" data-filter="#open" href="javascript:;">' + videTitle + '</a></h3>'+
+                            '<h3 class="Vtitle"><a data-fancybox data-type="iframe" data-src="https://youtube.com/embed/' + vidId + '?autoplay=1&rel=0&amp;controls=0&amp;showinfo=1;cc_load_policy=1&hl=en&cc_lang_pref=id" href="javascript:;">' + videTitle + '</a></h3>'+
                         '<h4 class="cTitle"><a href="https://www.youtube.com/channel/'+cID+'" target="_blank">'+channelTitle+'</a></h4></div></div></li>' ;
                     //'<div class="clearfix"></div>';
 		
