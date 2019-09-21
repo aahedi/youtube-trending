@@ -162,3 +162,9 @@ var removeUselessWords = function(txt,region) {
     );
  }
 }
+
+$(window).on('popstate', function (event) {
+	if (event.state!==null) {
+		$.fancybox.getInstance('close');
+	}
+});
