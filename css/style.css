@@ -5,6 +5,14 @@ body {
 .maindiv:before {
   content: counter(maindiv)".";
 }
+.harga{
+background-color: palevioletred;
+    padding: 4px;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    right: 41px;
+}
 .maindiv{	
   position: relative;
   counter-increment: maindiv;
