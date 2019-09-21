@@ -140,7 +140,7 @@ var removeUselessWords = function(txt,region) {
 				vidId = item.snippet.resourceId.videoId;
 		
     var temp = videTitle.split(" ");
-    var sapuluh = 'zipped,push,edge,scrumble,buzz,flutter,glitch3d,harmony,swipe,tossed,vortex,scatter,heat,arcade,bokeh,breakout,frosted,sweep,slide,segment,slip,corners';
+    var sapuluh = 'zipped,push,edge,scramble,buzz,flutter,glitch3d,harmony,swipe,tossed,vortex,scatter,heat,arcade,bokeh,breakout,frosted,sweep,slide,segment,slip,corners';
     var mabelas = 'shift,beat,broadcast,brushes,colorize,crosstown,duotone,fireworks,levels,panels,paparazzi,shapes,shuffle,sliced,transmission,funhouse,atomic,fresh,lotus,pixels,smoke,spun';
     var duapuluh = 'autumn,shimmer,adore,kinetic,snowfall,spotted,blossom,campagne,countdown,elements,piles,mod,puzzle,sweetness';
     var harga = '';
