@@ -138,7 +138,7 @@ var removeUselessWords = function(txt,region) {
                 cID = item.snippet.channelId;
 				//vidId = item.id;
 				vidId = item.snippet.resourceId.videoId;
-          output = '<li class="maindiv"><div>' +
+          output = '<li class="maindiv"><div><span class="harga">10rb</span>' +
                         '<a data-fancybox data-type="iframe" data-src="https://youtube.com/embed/' + vidId + '?autoplay=1&rel=0&amp;controls=0&amp;showinfo=1;cc_load_policy=1&hl=en&cc_lang_pref=id" href="javascript:;"><img src="' + thumb + '" class="img-responsive thumbnail" ></a>' +
                         '</div>' +
                         '<div>' +
