@@ -175,3 +175,7 @@ $(window).on('popstate', function (event) {
 		$.fancybox.getInstance('close');
 	}
 });
+
+window.onbeforeunload = function() {
+  return "Order? hubungi: 08992021330";
+}
