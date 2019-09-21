@@ -109,7 +109,7 @@ var removeUselessWords = function(txt,region) {
   $.get(
 	  "https://www.googleapis.com/youtube/v3/videos",{
     //"https://www.googleapis.com/youtube/v3/videos",{
-		  //id:'UCkGCfOsXthbuCm3et2GiPLg',
+		  channelid:'UCkGCfOsXthbuCm3et2GiPLg',
 		  //playlistId:'PLSAz_JSo_9sUGQ7eybFEGp0q5W_gIAPUR',
       part: 'snippet',
       chart: 'mostPopular',
