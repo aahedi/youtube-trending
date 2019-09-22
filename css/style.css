@@ -13,6 +13,14 @@ background-color: palevioletred;
     position: absolute;
     right: 29px;
 }
+.beli{
+padding: 3px;
+    position: absolute;
+    right: 29px;
+    bottom: 40px;
+    width: 60%;
+    cursor: pointer;
+}
 .maindiv{	
   position: relative;
   counter-increment: maindiv;
