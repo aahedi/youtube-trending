@@ -157,7 +157,7 @@ var removeUselessWords = function(txt,region) {
 		
           output = '<li class="maindiv"><div><span class="harga">'+harga+'</span>' +
                         '<a data-fancybox data-type="iframe" data-src="https://youtube.com/embed/' + vidId + '?autoplay=1&rel=0&amp;controls=0&amp;showinfo=1;cc_load_policy=1&hl=en&cc_lang_pref=id" href="javascript:;"><img src="' + thumb + '" class="img-responsive thumbnail" ></a>' +
-                        '<a href="https://api.whatsapp.com/send?phone=62089618885066&text=Halo%20Admin..%20saya%20mau%20order%20video%20tema:%20*'+videTitle+'*%0A%0A%0A_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%0A%0A*Metode%20Pembayaran%20:*%0ATransfer%20Pulsa%0A08992021330%20(Tri)%0A%0A" target="_blank"><img class="beli" src="beli-wa.png"/></a></div>' +
+                        '<a href="https://api.whatsapp.com/send?phone=62089618885066&text=Halo%20Admin..%20saya%20mau%20order%20video%20%0Atema:%20*'+videTitle+'*%0A%20%0Aharga:%20*'+harga+'*%0A%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%0A%0A*Metode%20Pembayaran%20:*%0ATransfer%20Pulsa%0A08992021330%20(Tri)%0A%0A" target="_blank"><img class="beli" src="beli-wa.png"/></a></div>' +
                         '<div>' +
                             '<h3 class="Vtitle"><a data-fancybox data-type="iframe" data-src="https://youtube.com/embed/' + vidId + '?autoplay=1&rel=0&amp;controls=0&amp;showinfo=1;cc_load_policy=1&hl=en&cc_lang_pref=id" href="javascript:;">' + videTitle + '</a></h3>'+
                         //'<h4 class="cTitle"><a href="https://www.youtube.com/channel/'+cID+'" target="_blank">'+channelTitle+'</a></h4>'
